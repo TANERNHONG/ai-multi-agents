@@ -44,13 +44,61 @@ npm run dev
 - Click on a task to mark it as completed.
 - Click on the "X" button next to a task to delete it.
 
+## Testing
+
+This project includes a comprehensive test suite with 96 tests covering all functionality.
+
+### Run Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm test -- --watch
+
+# Run tests with coverage report
+npm run test:coverage
+
+# Run tests with interactive UI
+npm run test:ui
+```
+
+### Test Coverage
+
+- **Overall Coverage**: 98.18%
+- **96 passing tests** across:
+  - Unit tests for models (ListItem, FullList)
+  - Integration tests for templates (ListTemplate)
+  - Integration tests for main application flow
+
+See [TEST_DOCUMENTATION.md](./TEST_DOCUMENTATION.md) for detailed test documentation.
+
+## Build
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
 ## Make changes to the code:
 
 You can modify the TypeScript files in the src directory to customize the app according to your needs.
 
+**Important**: This project follows strict architectural patterns defined in [.github/copilot-instructions.md](../.github/copilot-instructions.md). Please review these guidelines before making changes.
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+Before contributing:
+1. Review the architectural guidelines in `.github/copilot-instructions.md`
+2. Run tests: `npm test`
+3. Ensure all tests pass
+4. Add tests for new features
 
 ## License
 

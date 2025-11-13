@@ -167,12 +167,23 @@ This repository demonstrates a systematic approach to understanding and document
 
 ## 🤝 Contributing
 
-This repository serves as a reference implementation. To use these patterns in your own project:
+Contributions are welcome! Whether you want to report a bug, suggest an enhancement, improve documentation, or contribute code, please see our [Contributing Guide](./CONTRIBUTING.md).
+
+**Quick ways to contribute:**
+- Report bugs or issues
+- Improve documentation
+- Add examples or tutorials
+- Create new agent templates
+- Share your workflows
+
+**To use these patterns in your own project:**
 
 1. **Copy relevant templates** from `prompt-templates/`
 2. **Adapt the workflow** from `understanding-code/` to your needs
 3. **Use the analysis structure** from `.results/` as a guide
 4. **Customize agent instructions** in `.github/agents/`
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 ## 📄 License
 
@@ -187,9 +198,10 @@ This project is licensed under the MIT License - see the individual project file
 
 ## 📝 Additional Documentation
 
+- [Contributing Guide](./CONTRIBUTING.md) - How to contribute to this project
 - [Changelog](./docs/CHANGELOG.md) - Project history and updates
 - [FAQ](./docs/FAQ.md) - Frequently asked questions
-- [Troubleshooting](./docs/TROUBLESHOOTING.md) - Common issues and solutions
+- [Quick Reference](./docs/QUICK_REFERENCE.md) - Fast access to commands and patterns
 
 ---
 
